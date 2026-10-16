@@ -1,0 +1,73 @@
+I've created your Python weather report program, `wether.py`. 🌦️
+
+Download wether.py
+
+It uses the free Open-Meteo API — no API key or extra Python packages required.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://open-meteo.com\&sz=32)
+
+open-meteo.com
+
++1
+
+
+
+## Features
+
+- Enter different city names, such as Bengaluru, Hyderabad, Chennai, or Mumbai.
+- Get current temperature and feels-like temperature.
+- Check weather conditions, humidity, and wind speed.
+- View today's high and low temperatures.
+- See sunrise, sunset, rainfall, and cloud cover.
+- Continue checking cities until you type `q` to quit.
+
+## How to run it
+
+1\. Download the file
+
+Click the download link above and save `wether.py` to your computer.
+
+2\. Open the terminal
+
+Open Command Prompt or a terminal in the folder where you saved the file.
+
+3\. Run the program
+
+Enter this command:
+
+```
+python wether.py
+```
+
+## Example output
+
+```
+City Weather Report (free Open-Meteo API)
+
+City: Bengaluru
+
+================================================
+WEATHER REPORT: Bengaluru, Karnataka, India
+================================================
+Updated:             ...
+Conditions:          Partly cloudy
+Temperature:         ... °C
+Feels like:          ... °C
+Humidity:            ... %
+Wind speed:          ... km/h
+Cloud cover:         ... %
+Precipitation:       ... mm
+
+TODAY
+High:                ... °C
+Low:                 ... °C
+Sunrise:             ...
+Sunset:              ...
+================================================
+
+City: Hyderabad
+```
+
+The values above are placeholders, not live weather readings.
+
+Note: Your computer needs an internet connection to retrieve weather data.
